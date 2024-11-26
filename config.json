@@ -1,6 +1,6 @@
 {
     "url_main": "https://github.com/tanno0517/test_viewer/blob/main/annan_honkoku.xml",
     "url_sub": "https://github.com/tanno0517/test_viewer/blob/main/annan_gendai.xml",
-    "image_map": "https://github.com/tanno0517/test_viewer/blob/8b74b1c15d26e628cdeca7e0773eaa426594fb2c/image_map.json",
+    "image_map": "https://github.com/tanno0517/test_viewer/blob/main/image_map.json",
     "direction": "vertical"
 }
