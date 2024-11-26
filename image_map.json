@@ -1,0 +1,281 @@
+{
+	"@context": [
+		"http://iiif.io/api/presentation/2/context.json",
+		"http://codh.rois.ac.jp/iiif/curation/1/context.json"
+	],
+	"@type": "cr:Curation",
+	"@id": "http://example.org/iiif/curation/curation.json",
+	"label": "Curation list",
+	"selections": [
+		{
+			"@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/1/820/7169004.json/range/r1",
+			"@type": "sc:Range",
+			"label": "Manual curation by IIIF Curation Viewer",
+			"members": [
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p1",
+					"@type": "sc:Canvas",
+					"label": "1",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p2",
+					"@type": "sc:Canvas",
+					"label": "2",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p3",
+					"@type": "sc:Canvas",
+					"label": "3",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p4",
+					"@type": "sc:Canvas",
+					"label": "4",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p5",
+					"@type": "sc:Canvas",
+					"label": "5",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p6",
+					"@type": "sc:Canvas",
+					"label": "6",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p7",
+					"@type": "sc:Canvas",
+					"label": "7",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p8",
+					"@type": "sc:Canvas",
+					"label": "8",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p9",
+					"@type": "sc:Canvas",
+					"label": "9",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p10",
+					"@type": "sc:Canvas",
+					"label": "10",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p11",
+					"@type": "sc:Canvas",
+					"label": "11",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p12",
+					"@type": "sc:Canvas",
+					"label": "12",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p13",
+					"@type": "sc:Canvas",
+					"label": "13",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p14",
+					"@type": "sc:Canvas",
+					"label": "14",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p15",
+					"@type": "sc:Canvas",
+					"label": "15",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p16",
+					"@type": "sc:Canvas",
+					"label": "16",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p17",
+					"@type": "sc:Canvas",
+					"label": "17",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p18",
+					"@type": "sc:Canvas",
+					"label": "18",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p19",
+					"@type": "sc:Canvas",
+					"label": "19",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p20",
+					"@type": "sc:Canvas",
+					"label": "20",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p21",
+					"@type": "sc:Canvas",
+					"label": "21",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p22",
+					"@type": "sc:Canvas",
+					"label": "22",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p23",
+					"@type": "sc:Canvas",
+					"label": "23",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p24",
+					"@type": "sc:Canvas",
+					"label": "24",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p25",
+					"@type": "sc:Canvas",
+					"label": "25",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p26",
+					"@type": "sc:Canvas",
+					"label": "26",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p27",
+					"@type": "sc:Canvas",
+					"label": "27",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p28",
+					"@type": "sc:Canvas",
+					"label": "28",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p29",
+					"@type": "sc:Canvas",
+					"label": "29",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p30",
+					"@type": "sc:Canvas",
+					"label": "30",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p31",
+					"@type": "sc:Canvas",
+					"label": "31",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p32",
+					"@type": "sc:Canvas",
+					"label": "32",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p33",
+					"@type": "sc:Canvas",
+					"label": "33",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p34",
+					"@type": "sc:Canvas",
+					"label": "34",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p35",
+					"@type": "sc:Canvas",
+					"label": "35",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p36",
+					"@type": "sc:Canvas",
+					"label": "36",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p37",
+					"@type": "sc:Canvas",
+					"label": "37",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p38",
+					"@type": "sc:Canvas",
+					"label": "38",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p39",
+					"@type": "sc:Canvas",
+					"label": "39",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p40",
+					"@type": "sc:Canvas",
+					"label": "40",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p41",
+					"@type": "sc:Canvas",
+					"label": "41",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p42",
+					"@type": "sc:Canvas",
+					"label": "42",
+					"description": ""
+				},
+				{
+					"@id": "https://catalog.lib.kyushu-u.ac.jp/image/7169004/canvas/p43",
+					"@type": "sc:Canvas",
+					"label": "43",
+					"description": ""
+				}
+			],
+			"within": {
+				"@id": "https://catalog.lib.kyushu-u.ac.jp/image/manifest/1/820/7169004.json",
+				"@type": "sc:Manifest",
+				"label": "三国通覧図説"
+			}
+		}
+	]
+}
