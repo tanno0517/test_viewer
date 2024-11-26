@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_all_ja.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>安南国漂流物語（水戸磯原村船頭）</title>
+                <author>不明</author>
+                <respStmt>
+                    <resp>翻刻</resp>
+                    <name>九州大学日本史学研究室</name>
+                </respStmt>
+                <respStmt>
+                    <resp>校閲</resp>
+                    <name>九州大学日本史学研究室</name>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI符号化</resp>
+                    <name>九州大学日本史学研究室</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>九州大学人文科学研究院</publisher>
+                    <availability>
+                        <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>    
+                    </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>安南国漂流物語（水戸磯原村船頭）</title>
+                    <author>不明</author>
+                    <date>不明</date>
+                    <biblScope unit="volume">1冊</biblScope>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>九州大学附属図書館</institution>
+                        <repository ref="https://catalog.lib.kyushu-u.ac.jp/opac_browse/rare/?lang=0">貴重資料デジタルアーカイブ</repository>
+                        <collection>国史蒐集古文書</collection>
+                        <idno type="URI">https://hdl.handle.net/2324/7162308</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <summary>明和2年(1765)10月に、常陸国多賀郡磯原村の船頭6名が安南国(ベトナム)へ漂流した際の記録。</summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>24.0</height>
+                                        <width>16.0</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <bindingDesc>
+                            <binding>
+                                <p>和漢装</p>
+                            </binding>
+                        </bindingDesc>
+                        <sealDesc>
+                            <p>collector seal"九州帝国大学図書館”</p>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <acquisition>
+                            <p>Acquired from<name>木内誠</name></p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>長崎</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>本テキストは、前近代日本-アジア関係資料デジタルアーカイブの開発にあたって作成された。</p>
+            </projectDesc>
+            <editorialDecl>
+                    <p>漢字については旧字体を新字体に改めた。平仮名・カタカナ・合略仮名については可能な限りもとの表記に沿って記述した。</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile sameAs="https://catalog.lib.kyushu-u.ac.jp/image/manifest/1/820/7162308.json">
+        <surface xml:id="f001" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p1">
+            <label>1</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132794.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132794.tiff"/>
+        </surface>
+        <surface xml:id="f002" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p2">
+            <label>2</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132795.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132795.tiff"/>
+            <zone xml:id="zone_0002" ulx="0" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0002b" ulx="867" uly="326" lrx="3024" lry="3696"/>
+        </surface>
+        <surface xml:id="f003" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p3">
+            <label>3</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132796.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132796.tiff"/>
+            <zone xml:id="zone_0003a" ulx="3024" uly="354" lrx="5202" lry="3686"/>
+            <zone xml:id="zone_0003b" ulx="867" uly="326" lrx="3024" lry="3696"/>
+        </surface>
+        <surface xml:id="f004" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p4">
+            <label>4</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132797.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132797.tiff"/>
+            <zone xml:id="zone_0004a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0004b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f005" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p5">
+            <label>5</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132798.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132798.tiff"/>
+            <zone xml:id="zone_0005a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0005b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f006" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p6">
+            <label>6</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132799.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132799.tiff"/>
+            <zone xml:id="zone_0006a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0006b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f007" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p7">
+            <label>7</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132800.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132800.tiff"/>
+            <zone xml:id="zone_0007a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0007b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f008" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p8">
+            <label>8</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132801.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132801.tiff"/>
+            <zone xml:id="zone_0008a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0008b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f009" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p9">
+            <label>9</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132802.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132802.tiff"/>
+            <zone xml:id="zone_0009a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0009b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f010" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p10">
+            <label>10</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132803.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132803.tiff"/>
+            <zone xml:id="zone_0010a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0010b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f011" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p11">
+            <label>11</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132804.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132804.tiff"/>
+            <zone xml:id="zone_0011a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0011b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f012" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p12">
+            <label>12</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132805.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132805.tiff"/>
+            <zone xml:id="zone_0012a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0012b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f013" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p13">
+            <label>13</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132806.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132806.tiff"/>
+            <zone xml:id="zone_0013a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0013b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f014" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p14">
+            <label>14</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132807.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132807.tiff"/>
+            <zone xml:id="zone_0014a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0014b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f015" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p15">
+            <label>15</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132808.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132808.tiff"/>
+            <zone xml:id="zone_0015a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0015b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f016" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p16">
+            <label>16</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132809.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132809.tiff"/>
+            <zone xml:id="zone_0016a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0016b" ulx="0" uly="0" lrx="3024" lry="4034"></zone>
+        </surface>
+        <surface xml:id="f017" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p17">
+            <label>17</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132810.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132810.tiff"/>
+            <zone xml:id="zone_0017a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0017b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f018" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p18">
+            <label>18</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132811.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132811.tiff"/>
+            <zone xml:id="zone_0018a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0018b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f019" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p19">
+            <label>19</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132812.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132812.tiff"/>
+            <zone xml:id="zone_0019a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0019b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f020" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p20">
+            <label>20</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132813.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132813.tiff"/>
+            <zone xml:id="zone_0020a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0020b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f021" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p21">
+            <label>21</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132814.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132814.tiff"/>
+            <zone xml:id="zone_0021a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0021b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f022" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p22">
+            <label>22</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132815.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132815.tiff"/>
+            <zone xml:id="zone_0022a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0022b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+        <surface xml:id="f023" ulx="0" uly="0" lrx="6048" lry="4034"
+            sameAs="https://catalog.lib.kyushu-u.ac.jp/image/7162308/canvas/p23">
+            <label>23</label>
+            <graphic width="6048px" height="4034px"
+                url="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132816.tiff/full/max/0/default.jpg"
+                sameAs="https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/7162308/1132816.tiff"/>
+            <zone xml:id="zone_0023a" ulx="3024" uly="0" lrx="6048" lry="4034"/>
+            <zone xml:id="zone_0023b" ulx="0" uly="0" lrx="3024" lry="4034"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body style="writing-mode: vertical-rl;" xml:lang="ja">
+           <div type="翻刻"> 
+               <pb n="1r" facs="#zone_0002b"/>
+            <p>
+                <lb/><anchor corresp="#k000"/>安南國漂流物語 
+                <lb/><placeName corresp="#磯原村">常州多賀郡磯原村</placeName>船頭 
+                <lb/>禅宗　<persName corresp="#左平太">左平太</persName>　亥　三十五 
+                <lb/>同水主　同宗　<persName corresp="#友七">友七</persName>　亥　四十九 
+                <lb/>同宗 <persName corresp="#庄兵衛">庄兵衛</persName>　四十壱
+                <lb/>法華宗　<persName corresp="#吉四郎">吉四郎</persName>
+                <lb/><persName corresp="#善衛門">善衛門</persName>死 
+                <lb/><persName corresp="#重三郎">重三郎</persName>死 
+                <lb/>一私共義難風にて<placeName corresp="#ベトナム">安南国</placeName>江
+                <ruby>
+                    <rb>漂流</rb>
+                    <rt>ひやうりう</rt>
+                </ruby>仕候処
+                <ruby>
+                    <rb><placeName corresp="#南京">南京</placeName></rb>
+                    <rt>なんきん</rt>
+                </ruby>亥の 
+                <lb/>四番船安南国江商に渡り候便船に乗りおくられ安南ゟ 
+            <lb/><pb n="1v" facs="#zone_0003a"/>
+                <lb/>直に<placeName corresp="#長崎">長崎</placeName>江当七月十六日着船同日御役所江被 
+                <lb/>召出せいた踏絵被仰付漂流の次第一通り御穿
+                <lb/>鑿之上揚屋へ被遣猶亦段々御吟味に付委細申 
+                <lb/>上候趣左之通り </p>
+                <p><lb/><anchor corresp="#k001"/>一<persName corresp="#徳川宗翰">水戸様</persName>御領<placeName corresp="#磯原村">磯原村</placeName>屋八郎船姫宮丸十二反帆 
+                <lb/>乗り組み六人にて<date when="1765-10-15">明和二酉年十月十五日</date><placeName corresp="#小名浜">奥州小名濱</placeName>江
+                <lb/>罷越<persName>牧野越中守様</persName>御米六百弐拾俵請取同<date when="1765-10-25">廿五日</date>積立
+                <lb/>其夕方出帆仕同<date when="1765-10-28">廿八日</date><placeName corresp="#銚子">下総国銚子</placeName>の浦へ着船仕候 
+                <lb/><date when="1765-11-05">十一月五日</date>辰刻順風に御座候間帰帆に趣候処
+                <lb/><pb n="2r" facs="#zone_0003b"/>
+                <lb/>如何様六七里も北之方江参候頃西南より難風俄に 
+                <lb/>来り沖江吹飛され候故帆を下け碇を弐つ迄つけ候 
+                <lb/>得共風次第にはけしく船止り兼申故帆柱を伐り
+                <lb/>倒候得共船中へ掛波高く打込垢水を汲出し 
+                <lb/>強く働き候得共防きかたく候ゆへ乗組之者共覚悟を極め各 
+                <lb/>髪を切り仏神に祈誓し大綱をたらしに引せ
+                <lb/><date when="1765-11-06">六日</date>之晩方迄東北之方江流れ何れとも方角をし 
+                <lb/>らず候得共<placeName corresp="#相馬">奥州相馬沖</placeName>などにあらんと存居り候然る処
+                <lb/><anchor corresp="#k002"/>六日晩方ゟ風しづかに成戌亥の風に変候往古より難 
+                <lb/><pb n="2v" facs="#zone_0004a"/>
+                <lb/>風逢北沖江流れ命助るもの無き之西南江流れ候者は 
+                <lb/>助る事之及承候間此風之如き宜方ぞんじたらしを引上
+                <lb/>帆桁を抜て柱に拵十二反の帆を八反にして風にまかせ 
+                <lb/>て辰巳沖江吹帰され候<anchor corresp="#k003"/><date when="1765-11-08">八日</date>夕方より大北風大雨にて西南
+                <lb/>之方江<date when="1765-11-10">十日</date>の晩方迄走り候然れとも島山一切見当り 
+                <lb/>不申候それより戌亥風吹出し<date when="1765-11-11">十一日</date>迄辰巳江走り方
+                <lb/>角何処とも不相知其夜より<date when="1765-11-12">十二日</date>迄雪雑りの雨か 
+                <lb/>ぜ大嵐にて西之方ゟ東沖江吹掛候故綱のあり有之候 
+                <lb/>たらしに引せ悉くつかれ申候得共風益強く船
+                <lb/> <pb n="3r" facs="#zone_0004b"/>
+                <lb/>覆らんといたし候亦帆桁柱を伐折伝馬をも 
+                <lb/>つき放申候此時別て難遁存候此嵐<date when="1765-11-11">十一日</date>より<date when="1765-11-13">十三日</date> 
+                <lb/>迄続き三日三夜東之方へ吹流され何れの遠沖とも
+                <lb/>存当り無之<anchor corresp="#k004"/><date when="1765-11-15">十五日</date>迄吹き同日五つ時風少し止み候ゆへたらし 
+                <lb/>を取揚前日伐り折候帆桁幸に船中に倒在走候間又々
+                <lb/>是へ水棹等を巻添にして柱に拵伐残しの帆を 
+                <lb/>掛辰巳沖へ走り候元来粮米五斗程所持仕候水も<placeName corresp="#銚子">銚
+                <lb/>子浦</placeName>にて汲入候計ゆへ此時は餘程減り申候此以後 
+                <lb/>何日迄これ着岸難計候米水大切に仕水桶へ錠を 
+                <lb/><pb n="3v" facs="#zone_0005a"/>
+                <lb/>おろし猥には為呑不申雨降申時は着物を不残 
+                <lb/>出し雫を受留当座は是を用候米も一日に六人にて 
+                <lb/>壱升位宛焚候薪も不残焚切り船道具をきり
+                <lb/>割焚申候食事不足故力も抜て割兼難義仕候 
+                <lb/><date when="1765-11-13">十三日</date>より戌亥風毎日吹き辰巳の方へ<date when="1765-11-23"></date>迄風任せ 
+                <lb/>に走り候此時見知らさる大鳥船の前後を飛めぐ
+                <lb/>り候如是見馴ざる鳥之有之は甚遠き大灘江流れ 
+                <lb/>し事と心細く存候処<anchor corresp="#k005"/>廿三日四つ時より風変り 
+                <lb/>申酉江走り候此時一日に六人にて米五合位宛焚候其
+                <lb/><pb n="4r" facs="#zone_0005b"/>    
+                <lb/>後は段々減し米弐握位を六人一日之食に焚給候 
+                <lb/>此時まんびきと申魚船之前後をおどり候間板釘 
+                <lb/>を抜て釣針に作り麻苧にて鎖の如く拵三日に
+                <lb/>三疋釣揚食として四日之食事を延し申候処 
+                <lb/>に神明仏陀之御恵と存候<anchor corresp="#k006"/><date when="1765-11-23">廿三日</date>より<date when="1765-12-10"></date>十二月十日 
+                <lb/>まて毎日西へ〱と東風にて走り<date when="1765-12-10">十日</date>之朝初て
+                <lb/>山を見付六人之者共悉く悦ひ定て人里可有之 
+                <lb/>船を寄候処人之すまひ無之焼山島に御座候其外 
+                <lb/>六七つ山島相見へ候得共何れも人栖不申ゆへ定て西 
+                <lb/><pb n="4v" facs="#zone_0006a"/>
+                <lb/>なだ之方に国可有之とぞんじ亦風に任せて<date when="1765-12-10">十日</date> 
+                <lb/>より<date when="1765-12-17">十七日</date>まて七日七夜不休走らせ候此時七日に 
+                <lb/>粮米壱升五合計に御座候<anchor corresp="#k007"/><date when="1765-12-17">十七日</date>の五つ時分に西南の
+                <lb/>方に陸山見へ候間大きに悦び其地之方江近付候 
+                <lb/>得は漁船壱艘見付候人懐ぞんじ高声に 
+                <lb/>呼たて候とも飢疲聲立不申篷筵取て
+                <lb/>招候ふも力なく足立兼度々倒れ申体に御 
+                <lb/>座候漁船も我等が船を見おどろき候様にて忽 
+                <lb/>見うしなひ候夫より〔夫より〕汀は漕寄候得ば
+                <lb/><pb n="5r" facs="#zone_0006b"/>
+                <lb/>遠浅にて船着かたく候碇を下し<persName corresp="#善衛門">善衛門</persName><persName corresp="#庄兵衛">庄兵衛</persName>
+                <lb/>両人陸江揚り候にてんまも無之候裸に成て衣類をさ 
+                <lb/>さげ渡り候船中にては足立不申之程つかれ申候得ども
+                <lb/>陸へ揚るの嬉しさに浪にゆられて覚へず安〱越渡り 
+                <lb/>候此時は米水一切無之御座候ゆへ米買可申と銭四百文 <lb/>持参致候処里人ども七八十人手々に竹槍山刀
+                <lb/>等を持参一同に渚に来りて惣髪にて歯は黒く赤き 
+                <lb/>ものを喰候體にて口之両脇赤くよごれおそろし 
+                <lb/>き有様故両人大きおどろき候得共とかく不遁命と 
+                <lb/><pb n="5v" facs="#zone_0007a"/>
+                <lb/>覚悟仕たとへ鬼成りとも逃帰べき心無之おづ〱 
+                <lb/>側へ寄言語致候へども一切不相通候故庄兵衛日本
+                <lb/><placeName corresp="#水戸">水戸国</placeName>と砂に書き見せ候へば本之字不審のやふに相見 
+                <lb/>へ候間本之字を真に書替候へば合点致し候様にて
+                <lb/>御座候甚飢に及候間食事あたへ候様にと仕かた <lb/>にてしらせ候先よりも色々言語致し候得とも少も
+                <lb/>通不申候庄兵衛は船へ帰り其次第を為知<persName corresp="#左平太">左平太</persName>
+                <lb/><persName corresp="#重三郎">十三郎</persName>も陸へ揚て米といふ字を書いて見せ候へば早速
+                <lb/>米四升計持来り候甚飢候故四人とも打寄り一掴宛かみ
+                <lb/><pb n="6r" facs="#zone_0007b"/>
+                <lb/>申候亦一掴と手を掛候処里人共手をおさへ米は腹にあた
+                <lb/>り候間飯を焚あたへべきと仕方を致候間我々も 
+                <lb/>船中之両人に給させ度きとしかたにてしらせ船へ持行
+                <lb/>少々宛かませ残りを飯に焚申候<anchor corresp="#k008"/>しかるに里とも粥を 
+                <lb/>持来候間陸の四人先少々宛給申候暫く有之黄昏 
+                <lb/>かたにまた粥を持来候間是をも給候しかるに角柱
+                <lb/>穴をあけたる掛を持来り我々四人の足を片足宛 
+                <lb/>一つ木にはめ両端を縄にて縛り其夜は砂に臥申候<placeName corresp="#銚子">銚
+                <lb/>子浦</placeName>出帆より此日迄四十三日に相成候翌日残り 
+                <lb/><pb n="6v" facs="#zone_0008a"/>
+                <lb/>弐人も船より揚これにも足掛をはめ候里人とも 
+                <lb/>船より衣類荷物を持運び船をば河の内に引 
+                <lb/>込呉れ候我々所持之銭四貫文有之も取上られ我等
+                <lb/>は砂之上に七日居り申候食事は所の役人より拵運 
+                <lb/>呉候番人も始揚り候時は八十人程後には六七十人番 
+                <lb/>仕り寒中に候へども昼は照り強く難耐候故山<choice>
+                    <orig>ゟ</orig>
+                    <reg>より</reg>
+                </choice>木を 
+                <lb/>伐出し日除を致呉候<anchor corresp="#k009"/><date when="1765-12-23">廿三日</date>の夜五つ時分足掛を解き 
+                <lb/>弐三町陸郷家之町家江連れられ爰にて食事
+                <lb/>致候後に所の役人家へ引出されて色々問候得共
+                <lb/><pb n="7r" facs="#zone_0008b"/>
+                <lb/>少しも通不申候間町家へ帰り縄にて片足縛られ居候
+                <lb/>所廿五日縄解れ其処にて越年仕候<placeName>安南國之内マイニチハマ</placeName>
+                <lb/>と申処に御座候<date when="1766-01-15">正月十五日</date>ゟ人足弐人宛私共江 
+                <lb/>相添近所の家〱より米を貰給申候十五日前の 
+                <lb/>食は先達て渡置候銭四貫文にて扶持致し候心と
+                <lb/> 相見へ其銭は返し不申候我〱もやふ〱近付も
+                <lb/>出来申候<anchor corresp="#k010"/>然る処に二月に成りて<placeName corresp="#南京">南京</placeName>の<persName>コククワンサン</persName>
+                <lb/>と申者なりとて日本語を遣て物語いたし 
+                <lb/>候間私共ゆかしくそんし日本江帰り可申便り
+                <lb/><pb n="7v" facs="#zone_0009a"/>
+                <lb/>問候ば心安き事なりとて我々を役人所へ連れ 
+                <lb/>役人と物語り立帰候弥<placeName corresp="#長崎">長崎</placeName>江可相渡と尋候得者心安言
+                <lb/>計挨拶し何方へか行申候其後<date when="1766-02-23">二月廿三日</date><persName corresp="#コククワンサン">コククワンサン</persName>参
+                <lb/>候て弥<placeName corresp="#日本">日本</placeName>へ同伴可致まづ是ゟ十四五里南に
+                <lb/><placeName corresp="#ホイアン">会安</placeName>と云大湊へゆくべしとて廿六日私共も
+                <lb/>連立申に付諸役人江も暇乞いたし手前船に
+                <lb/>乗り<persName corresp="#コククワンサン">コククワンサン</persName>一同に<placeName corresp="#ホイアン">会安</placeName>へ趣候順風不宜候故所々に
+                <lb/><pb n="8r" facs="#zone_0009b"/>
+                <lb/>掛り内河へ引船にてやふ〱<date when="1766-03-01">三月朔日</date>会安役人所へ 
+                <lb/>参り何角と物語いたし候我等は通不申候役 
+                <lb/>人所より米銭杯もらい船へ帰り是ゟ<persName corresp="#コククワンサン">コククワンサン</persName>世話に 
+                <lb/>て六月迄同船に居り申候船道具之内大綱引綱
+                <lb/>みな碇ひとつ水樽ひとつ<persName corresp="#コククワンサン">コククワンサン</persName>計らいに賣拂候得共
+                <lb/>代物何程にもしらせ不申此時迄の食料に成候事と
+                <lb/>相見へ申候此時南京船十八艘会安に逗留致し候間
+                <lb/>何卒便船に<placeName corresp="#日本">日本</placeName>へ不叶ともせめて<placeName corresp="#南京">南京</placeName>迄も渡り
+                <lb/>候やふに願候得ば<persName corresp="#コククワンサン">コククワンサン</persName>申候ば金子さへ有之候はば米 
+                <lb/><pb n="8v" facs="#zone_0010a"/>
+                <lb/>薪入船頭方へ相渡し急に便船乗らすべしと申に付 
+                <lb/>金子四両相渡しひとへに世話相願候<persName corresp="#コククワンサン">コククワンサン</persName>金子受取て 
+                <lb/><date when="1766-06-15">六月十五日</date>船を出て其後無沙汰にいたされ候<anchor corresp="#k011"/>然る処に
+                <lb/>廿二日に<placeName corresp="#小名浜">奥州小名の濱</placeName>之もの三人是も此辺へ漂流い
+                <lb/>たし候是等もは船も損し候故私共船へ同道致し
+                <lb/>一所に居り申候<date when="1766-07-10">七月十日</date>に役人江罷出<placeName corresp="#南京">南京</placeName>へ便船渡り 
+                <lb/>候事を願候初は原之通り相成り候様挨拶御座候
+                <lb/>間亦候<date when="1766-07-15">十五日</date>にも出て願候へば其節は当年は相 
+                <lb/>不叶趣に返事有之候皆々力を落し涙を流し
+                <lb/><pb n="9r" facs="#zone_0010b"/>
+                <lb/>て悲しみ申候其後は船中ゟ罷出其処の仕事
+                <lb/>春挽等に手伝候間日雇を取米銭志次第に申請之 
+                <lb/>食事を求め暮し候<anchor corresp="#k012"/>善衛門は五月末ゟ不快にて痢 
+                <lb/>病になり所々医師を招被致療治候得共<date when="1766-07-15">七月十五日</date>
+                <lb/>方ゟ至極重り<date when="1766-07-24">廿四日</date>年四拾四にて相果申候所之役人へ 
+                <lb/>申出候得ば銭壱貫文幷棺人足弐三人にて持来り墓所へ
+                <lb/>葬申候<date when="1766-08-13">八月十三日</date>なり十三郎も痢病相煩是も 
+                <lb/>相果申候前々之通り葬申候其年も此処にて越年仕候 
+                <lb/>医薬いたし候へども<date when="1766-09-05">九月五日</date>年三十二にて 
+                <lb/><pb n="9v" facs="#zone_0011a"/>
+                <lb/>相果候此処前後いたし候<anchor corresp="#k013"/>当亥<date when="1767-02-25">二月十五日</date>南京 
+                <lb/>船之船頭<persName corresp="#トンタイクンシ">トンタイクンシ</persName>といふ人着岸いたし日本人 
+                <lb/>此地に漂着之事を聞其旅宿へ我等を招き日本人 
+                <lb/>便船にて可送間此方へ参り一同食事もいたし
+                <lb/>出船を相待べしと日本の言葉にて被申候ゆへ佛 
+                <lb/>に逢し心地にて<date when="1767-02-18">十八日</date>ゟ七人不残船より揚り南京
+                <lb/>人之扶持を貰申候〔トンタイクンシ/タイフウサン〕<persName corresp="#游撲">游撲</persName>何も情深き人にて
+                <lb/>懇にいたし候就中<persName corresp="#トンタイクンシ">トンタイクンシ</persName>は親方と相見へ年六十餘り
+                <lb/>威尊き人に御座候私共七人江単物十四せった十四ぜに
+                <lb/><pb n="10r" facs="#zone_0011b"/>
+                <lb/>九貫文合力被致候其外烟草等は時々貰申候<anchor corresp="#k014"/><date when="1767-05-02">五月二日</date>
+                <lb/>船賣拂申候南京人の世話にて安南銭六貫文に相成申候 
+                <lb/><date when="1767-06-20">六月廿日</date>出帆仕<persName corresp="#トンタイクンシ">トンタイクンシ</persName>游撲後船に残し候間 
+                <lb/>私共乗せ来る船頭は<persName corresp="#王世吉">王世吉</persName>〔ホイチヤウサン/タイフウサン〕其外水主共六十七人 
+                <lb/>私共四人小名之濱之者三人都合乗組七十四人<date when="1767-07-16">七月十六日</date>
+                <lb/>長崎江着候道すがら左之方に<placeName corresp="#清">大清国</placeName>之陸山遥
+                <lb/>に見て通り候日本之海ゟも浪静に御座候<placeName>ダイバン
+                <lb/>島</placeName>をば右に見て通る餘程大き成島御座候<placeName corresp="#ベトナム">安南国</placeName>ゟ
+                <lb/><placeName corresp="#長崎">長崎</placeName>迄丑寅之方へ向て昼夜不休日数廿七日にて 
+                <lb/><pb n="10v" facs="#zone_0012a"/>
+                <lb/>着船道程八百六拾里と及承候 
+                <lb/><anchor corresp="#k015"/><placeName corresp="#ホイアン">会安</placeName>にて此彼より貰申候品々
+                <lb/>一草烟草入弐つ　　一扇子　六本　　　　一孔雀羽 
+                <lb/>一羅紗同草　壱つ　一木綿烟草入　壱つ　一絹烟草入　拾弐
+                <lb/>一指金　弐つ　　　一古暦　弐つ　　　　一珠数玉　五貫 
+                <lb/>一はさみ　三　　　一櫛　壱　　　　　　一安南銭　
+                <lb/>一しき櫛　三　　　一小鏡　弐　　　　　一筆　壱本 
+                </p>
+            <p><lb/><anchor corresp="#k016"/><placeName corresp="#ベトナム">安南国</placeName>逗留中見分仕候雑談
+                <lb/><anchor corresp="#k017"/>一私共初漂着仕候マイニチハマ家数五六拾軒皆草葺
+                <lb/><pb n="11r" facs="#zone_0012b"/>
+                <lb/>内は土間寝所は床之上にござを敷き臥申候扉は草へ 
+                <lb/>押縁をあて廻し戸に致候引戸は無之御座候
+                <lb/><anchor corresp="#k018"/>一食事はシツホクと申て指渡し弐尺計の丸膳へ大き成瀬 
+                <lb/>戸物皿江汁菜を入三つ四つ並べ三四人宛集りさじ
+                <lb/>箸にて披い上寄合食候但し飯は各々茶碗江盛り壱人 
+                <lb/>切に給候貧者も皆米計用候菜は魚類或は豚鶏 
+                <lb/>家鴨等常に用候
+                <lb/><anchor corresp="#k019"/>一衣類は貧者は木綿中以上は絹服したて縫様は唐 
+                <lb/>人と同髪髭そらず油つけず男女ともに後へ逆に 
+                <lb/> <pb n="11v" facs="#zone_0013a"/>
+                <lb/>櫛を指巻髪に致候かふり物は木綿或は縮緬にて頭を 
+                <lb/>包候男女同衣類ゆびかねはめ候但女計耳金さげ 
+                <lb/>候ゆへ男女之別相見へ候会安にて五歳計の女子に
+                <lb/>耳金掛候を見るに釘の様成針にて耳たぶへ穴を通 
+                <lb/>し血留之粉薬を付穴へかふ針を入置候苦痛も 
+                <lb/>無之哉泣も驚きも不仕候
+                <lb/><anchor corresp="#k020"/>一会安は海の口ゟ一里程川上の湊にて候家数大図五六百 
+                <lb/>軒表向は瓦家塗塀裏家計茅葺に候扉は弐枚 
+                <lb/>廻し戸にて内は大がい土間にて候其外に少々縁板張
+                <lb/><pb n="12r" facs="#zone_0013b"/>
+                <lb/>
+                <subst>
+                    <del>之所も</del>
+                </subst>
+                <lb/>之所も有之畳と申は一切不相見へ候寺三ヶ寺有 
+                <lb/>何れも小寺に御座候本尊は女之面體にて額には 
+                <lb/>海國尊親と候二ヶ寺は本尊薬師前に関羽之
+                <lb/>像有<anchor corresp="#k021"/>男女共に生れ日本人之如く色白く人品宜御 
+                <lb/>座候就中女は美麗にて化粧計不致候中以上之人 
+                <lb/>は衣類繻子緞子相用官人らしき人は日傘指掛
+                <lb/> させ出入致候 
+                <lb/><anchor corresp="#k022"/>一<placeName corresp="#ベトナム">安南</placeName>之人は上下共に惣てらまと申木之実とほいと云白 
+                <lb/>粉牡蠣灰をからといふ木之葉に包平生巾着に入 
+                <lb/><pb n="12v" facs="#zone_0014a"/>
+                <lb/>置時々喰申候或はきざみ烟草へまじへても嚼付 
+                <lb/>申候赤汁出て唇染り歯は黒くなり候私共も味 
+                <lb/>見る処少し渋く口中爽に候彼国にては客人之饗
+                <lb/>応にも常に不絶相用候 
+                <lb/><anchor corresp="#k023"/>一正月は門に葉竹壱本宛十五日迄立置候新衣を着 
+                <lb/>し相悦候併日本之格式と違申候男女之正月様
+                <lb/>さきてうを作り細竹弐本下げ板之両方江貫下ゟ 
+                <lb/>楔を〆板の上に弐人宛乗り突出し振申候後は乗 
+                <lb/>人自に振動してあそび候
+                <lb/><pb n="13r" facs="#zone_0014b"/>
+                <lb/><anchor corresp="#k024"/>五月五日には生米を笹葉に包入れ煮て粽之様に相用候 
+                <lb/>草餅も御座候得共艾をば不用からむしの葉にて染候
+                <lb/>此日船遊ひいたし候小船に十七八人宛乗り舳に 
+                <lb/>龍頭を飾り艫に旗を立かいを左右に十八丁立て 
+                <lb/>ハイハイと囃して太鼓を鳴らしきそい渡り申候
+                <lb/> 七月盆は不致候哉目立申事無之御座候 
+                <lb/><anchor corresp="#k025"/>一南京人に誘引せられ<placeName corresp="#ホイアン">会安</placeName>より三里程西の象
+                <lb/>之有処に見物に参り候象家五つ象五疋長壱丈計り 
+                <lb/>毛は鼠色食事は笹葉薬草相用候私共銭ま 
+                <lb/><pb n="13v" facs="#zone_0015a"/>
+                <lb/>き候得ば此象鼻にて壱文づつ拾ひ取背に乗たる 
+                <lb/>人に渡し候屋ぐらのやふ成る荷鞍を掛三四人乗て 
+                <lb/>川辺へ水飼に出るを見候象屋に番人等無之公儀
+                <lb/>にて飼置候相見へ申候 
+                <lb/><anchor corresp="#k026"/>一葬禮を二三度見物致候寝棺之上に美敷織物を 
+                <lb/>掛輿へ乗せ輿の長さ六尺餘り廻り金銀之飾り
+                <lb/>物彫物拾六七人にてかき申候其外輿三つ四つ 
+                <lb/>種々の作り物を乗せ候亦位牌之様成るを 
+                <lb/>織物へ書付臺之上に立て五六人にてかつぎ候
+                <lb/><pb n="14r" facs="#zone_0015b"/>
+                <lb/>長刀之様成ものを両方へ対にわけ百本計も 
+                <lb/>立候道具持は種々の頭巾をかぶり旗天蓋も 
+                <lb/>左右に十本程立供人は男は藤布の様成あら
+                <lb/>目成るものを着し頭へも鉢巻にし帯 
+                <lb/>も同布に御座候女は一所に集り廻りに長さ弐間横壱間 
+                <lb/>計の幕を引廻し行候間装束之様子相見へ不申候 
+                <lb/>棺之先に左右に家人顔を彩色鬼之如くに作り鉄 
+                <lb/>の棒を持けいご致し候僧拾人程鼠色の衣に袈 
+                <lb/>裟を掛日本之僧に違なしこきふ三味せん笛に 
+                <lb/> <pb n="14v" facs="#zone_0016a"/>
+                <lb/>篳篥鉦聲太鼓其外名不知器物を合打 
+                <lb/>鳴らし通り候惣人数三百人餘と相見へ候其処之 
+                <lb/>風俗を承り候に貴人死して五ヶ月計不葬
+                <lb/>家内に棺をとめ置候下輩之者は屍を当座に埋め 
+                <lb/>其時過て格式之葬禮を執行候 
+                <lb/><anchor corresp="#k027"/>一南京の<persName corresp="#トンタイクンシ">トンタイクンシ</persName>安南国王の居る所<placeName>ホイホンコク</placeName>とやら申所へ
+                <lb/>参候節安南国王より馳走に出候よし結構成乗物へ乗 
+                <lb/>上下十四五人にて往来致候<persName corresp="#トンタイクンシ">トンタイクンシ</persName>も貴人相見申候 
+                <lb/><anchor corresp="#k028"/>一安南国は火を焚申時硫黄付木を不用紙ほくちにて
+                <lb/> <pb n="15r" facs="#zone_0016b"/>
+                <lb/>吹付候得忽火移申候畢竟暖国故薪柴火
+                <lb/>移り能事と相見へ候私共着岸し之はじめ船道具 
+                <lb/>を割火に焚申時附木を不用附兼こまり申候 
+                <lb/><anchor corresp="#k029"/>一安南之稲作は年に弐度づつ苅収め候種は陸田へ苗代
+                <lb/>拵蒔申候一作は霜月植て三月苅一作は五月 
+                <lb/>植て九月苅田植は日本之様に候得共苗を倒さず 
+                <lb/>根を持て分け逆手に植候苅時は穂首之方を
+                <lb/>中苅にして小束にまるき牛にふませてから落致 
+                <lb/>候稲こきは用不申候南京人に日本之稲こき道 
+                <lb/> <pb n="15v" facs="#zone_0017a"/>
+                <lb/>具を図に書見せ候得共南京と日本は同様成と答候 
+                <lb/>田を耕は牛弐疋にて犂壱挺を引せ候鼻取も無之候 
+                <lb/>日本と大概同様にに御座候麦蕎麦稗は一切見当り
+                <lb/>不申候大小豆粟もろこし菜大根芋茄子なんばん 
+                <lb/>夕顔瓜西瓜木綿等日本と同様に候野菜諸作 
+                <lb/>年中不絶有之候極月寒中安南之暖気
+                <lb/>日本之四五月之様にて稲葉そよぎ勢能生長 
+                <lb/>いたし候田作は一作苅取候跡は休め替る〱植付候
+                <lb/><pb n="16r" facs="#zone_0017b"/>
+                <lb/>田作多く中にも田勝ち之国に御座候米値段日本升
+                <lb/>壱升程は安南銭十二三文酒弐拾四五文位に御座候酒味 
+                <lb/>日本の焼酒よりも辛く香気鼻をとふし 
+                <lb/>私共一切吞被不申候木綿値段上品にて壱尺十五文
+                <lb/>くらいに御座候安南の尺は日本之壱尺五寸位に御座候 
+                <lb/>儘日本尺に致し候得者壱尺拾文位に御座候<anchor corresp="#k030"/>安南銭は
+                <lb/>日本銭と同恰好にて政和通寶太平通寶などと真 
+                <lb/>字に書申候金生もいろも不宜候間砕易御座候トタン 
+                <lb/>とやらを入申由南京人物語に候南京銭も多く入雑り 
+                <lb/><pb n="16v" facs="#zone_0018a"/>
+                <lb/>通用いたし候是は金の生能日本にて見当り申候 
+                <lb/>銭に御座候惣て銭通用弐て何程の大商にても何千 
+                <lb/>貫何万貫と勘定致候金銀は平生通用無之成
+                <lb/>小粒等も相見へ不申候会安にては或人私共に金を見せ申候 
+                <lb/>長さ弐寸四五分厚さ三分計〔図〕如此にて内漥く割判御座候
+                <lb/>大概五六拾目程に候平生通用ものとは不相見銭は 
+                <lb/>六拾文を百文と極め候間安南之壱貫文は日本の長
+                <lb/>銭六百文なりさしはとふにてより候<persName corresp="#トンタイクンシ">トンタイクンシ</persName><placeName>南京</placeName>ゟトタン
+                <lb/>を積来り<placeName corresp="#ベトナム">安南</placeName>にて銭壱万弐千貫文請取之時私共七人
+                <lb/><pb n="17r" facs="#zone_0018b"/>
+                <lb/>四五百貫文索さし手伝申候
+                <lb/><anchor corresp="#k031"/>一<placeName corresp="#ベトナム">安南国</placeName>ゟ買積候産物砂糖胡椒牛角牛皮象牙タウ 
+                <lb/>椅楠柄鮫菜種の類其外孔雀四十羽鸚鵡四羽烏
+                <lb/>の如く成鳥猫の如くにて尾長き獣物に御座候活象を見 
+                <lb/>ては牙は小く見へ候得共抜取賣物に成たるを見れば長さ
+                <lb/>四尺程廻り八九寸有之候<anchor corresp="#k032"/>会安にて氷砂糖白砂糖等を俵にす 
+                <lb/>るを見れば俵は竹をへぎて笟之如く作り俵作時は庭へ
+                <lb/>砂糖を山之如くまけ置俵に入り次第杵にて突込日 
+                <lb/>本之五斗俵程に作り秤にふり申候<placeName corresp="#ベトナム">安南国</placeName>之産物は 
+                <lb/> <pb n="17v" facs="#zone_0019a"/>
+                <lb/>砂糖第一大分に出申と相見へ申候 
+                <lb/>一<placeName corresp="#ベトナム">安南</placeName>の去年之暦を貰候国号年号も南とは違ひ候
+                <lb/>当亥之閏月安南と日本は九月南京之閏は七月に
+                <lb/>御座候然ば<placeName corresp="#ベトナム">安南</placeName>は<placeName corresp="#清">大清国</placeName>とは別国別王と存奉候
+                <lb/>一安南人も南京人も人に対して禮義を致候時はかならず
+                <lb/>立て両手之指を組合腰を少しか〱め頭を下げて禮致候
+                <lb/><anchor corresp="#k034"/>一安南人之太刀は日本之太刀に御座候柄糸縁目貫鞘等 
+                <lb/>造様日本と同じ鞘は巻金拵に致し日本之三度拵
+                <lb/>之様成も御座候柄と鞘とを糸之両端にてにて縛り左りの肩に
+                <lb/><pb n="18r" facs="#zone_0019b"/>
+                <lb/>かけ右之脇へぶらさげ申候上衣には帯無御座候ゆへ帯刀 
+                <lb/>には不成候剣は一見当り不申候
+                <lb/><anchor corresp="#k035"/>一南京船中にて刀剣之類一切所持不仕候 
+                <lb/><anchor corresp="#k036"/>一安南にて蝋燭を甕の中へ塩漬に仕貯候卵も同様に候 
+                <lb/><anchor corresp="#k037"/>一安南国之剃刀は小刀之如く裏は柄を附柄を引廻して
+                <lb/>鞘にいたし候南京人用ひ候も同様に御座候 
+                <lb/><anchor corresp="#k038"/>一安南の草履は革にて甲は羅紗繻子等の切を用ひ候 
+                <lb/>木履は日本之如くはなを有て足の指へはさみはきし
+                <lb/>一せつたは日本の造りと同様に御座候わらんぢはからむし 
+                <lb/> <pb n="18v" facs="#zone_0020a"/>
+                <lb/>にて造り候ちは日本之如くにてつまさきへ引かふせ包 
+                <lb/>申候稲の藁をば不用候惣てわら細工は無之御座候縄網等に
+                <lb/>もトウイチヒシユロ竹等を用申候別して竹を多く相用候 
+                <lb/>大縄小縄にも竹を細くわりて合申候大竹ありて川 
+                <lb/>辺の仮屋は皆竹の柱にて造り申候
+                <lb/><anchor corresp="#k039"/>一籾の字安南にては粟と書申候 
+                <lb/><anchor corresp="#k040"/>一会安之湊に正月之頃より南京船十七八艘或は二十艘 
+                <lb/>其外諸国の国船七月末迄逗留商物仕入候南京人
+                <lb/>計も千弐参百人居候間上半年は町家至極賑にて
+                <lb/><pb n="19r" facs="#zone_0020b"/>
+                <lb/>市之如く押合て通り候彼地田畑こへ候てこやし等も用
+                <lb/>不申候と相見へ申候かわや小便所無之貴賤男女大小便猥に 
+                <lb/>平地に下し候間路辺悪臭甚しく候
+                <lb/>安南語
+                <lb/><ruby><rb>一</rb><rt>モツ</rt></ruby>　<ruby><rb>二</rb><rt>ハイ</rt></ruby>　<ruby><rb>三</rb><rt>バン</rt></ruby>　<ruby><rb>四</rb><rt>ホン</rt></ruby>　<ruby><rb>五</rb><rt>ナム</rt></ruby>　<ruby><rb>六</rb><rt>サホ</rt></ruby>　<ruby><rb>七</rb><rt>バイ</rt></ruby>　<ruby><rb>八</rb><rt>タン</rt></ruby>　<ruby><rb>九</rb><rt>リン</rt></ruby>　<ruby><rb>十</rb><rt>モイ</rt></ruby>　<ruby><rb>百</rb><rt>モツテン</rt></ruby>　<ruby><rb>千</rb><rt>モツチウ</rt></ruby>
+                <lb/><ruby><rb>日</rb><rt>ライ</rt></ruby>　<ruby><rb>月</rb><rt>タン</rt></ruby>　<ruby><rb>雲</rb><rt>ニイ</rt></ruby>　<ruby><rb>夜</rb><rt>マツ</rt></ruby>　<ruby><rb>月</rb><rt>タン</rt></ruby>　<ruby><rb>正</rb><rt>モツ</rt></ruby>　<ruby><rb>月</rb><rt>タン</rt></ruby>　<ruby><rb>二</rb><rt>ハイ</rt></ruby>　<ruby><rb>月</rb><rt>タン</rt></ruby>　<ruby><rb>三</rb><rt>バア</rt></ruby>　<ruby><rb>月</rb><rt>タン</rt></ruby>　<ruby><rb>風</rb><rt>ヨウ</rt></ruby>
+                <lb/><ruby><rb>山</rb><rt>サン</rt></ruby>　<ruby><rb>雨</rb><rt>モ</rt></ruby>　<ruby><rb>降</rb><rt>ハ</rt></ruby>　<ruby><rb>水</rb><rt>ヌツク</rt></ruby>　<ruby><rb>暗</rb><rt>トン</rt></ruby>　<ruby><rb>海</rb><rt>ハイ</rt></ruby>　<ruby><rb>風</rb><rt>ヨナ</rt></ruby>　<ruby><rb>南</rb><rt>アム</rt></ruby>　<ruby><rb>風</rb><rt>ヨノ</rt></ruby>　<ruby><rb>東</rb><rt>ウム</rt></ruby>　<ruby><rb>風</rb><rt>ヨウ</rt></ruby>　<ruby><rb>北</rb><rt>ホツク</rt></ruby>
+                <lb/><ruby><rb>風</rb><rt>ヨウ</rt></ruby>　<ruby><rb>西</rb><rt>サイ</rt></ruby>　<ruby><rb>安</rb><rt>アン</rt></ruby>　<ruby><rb>南</rb><rt>ナン</rt></ruby>　<ruby><rb>国</rb><rt>クハツ</rt></ruby>　<ruby><rb>日</rb><rt>ニツ</rt></ruby>　<ruby><rb>本</rb><rt>ホン</rt></ruby>　<ruby><rb>国</rb><rt>クハツ</rt></ruby>　<ruby><rb>人</rb><rt>ニヨン</rt></ruby>　<ruby><rb>安</rb><rt>アン</rt></ruby>　<ruby><rb>南</rb><rt>ナン</rt></ruby>　<ruby><rb>船</rb><rt>セン</rt></ruby>
+                <lb/><ruby><rb>大明</rb><rt>トウ</rt></ruby>　船　<ruby><rb>東</rb><rt>トン</rt></ruby>　<ruby><rb>海</rb><rt>ハイ</rt></ruby>　<ruby><rb>父</rb><rt>チヽ</rt></ruby>　<ruby><rb>母</rb><rt>ハヽ</rt></ruby>　<ruby><rb>妻</rb><rt>リハア</rt></ruby>　<ruby><rb>子</rb><rt>ゴン</rt></ruby>　<ruby><rb>兄</rb><rt>アン</rt></ruby>　<ruby><rb>弟</rb><rt>アイシ</rt></ruby>　<ruby><rb>姉</rb><rt>セシ</rt></ruby>
+                <lb/><pb n="19v" facs="#zone_0021a"/>
+                <lb/><ruby><rb>妹</rb><rt>モイ</rt></ruby>　<ruby><rb>男</rb><rt>ゴタイ</rt></ruby>　<ruby><rb>女</rb><rt>コカイ</rt></ruby>　<ruby><rb>星</rb><rt>タ</rt></ruby>　<ruby><rb>病</rb><rt>フナ</rt></ruby>　<ruby><rb>気</rb><rt>イハ</rt></ruby>　<ruby><rb>男</rb><rt>カ</rt></ruby>　<ruby><rb>根</rb><rt>ク</rt></ruby>　<ruby><rb>女</rb><rt>ロ</rt></ruby>　<ruby><rb>陰</rb><rt>ン</rt></ruby>　<ruby><rb>臀</rb><rt>トン</rt></ruby>　<ruby><rb>臍</rb><rt>ルン</rt></ruby>
+                <lb/><ruby><rb>尿</rb><rt>インヨウ</rt></ruby>　<ruby><rb>遊</rb><rt>アリ</rt></ruby>　<ruby><rb>女</rb><rt>フ</rt></ruby>　<ruby><rb>死</rb><rt>セツ</rt></ruby>　<ruby><rb>煙</rb><rt>ト</rt></ruby>　<ruby><rb>草</rb><rt>ウ</rt></ruby>　<ruby><rb>煙</rb><rt>ヲン</rt></ruby>　<ruby><rb>管</rb><rt>リヨウ</rt></ruby>　<ruby><rb>食</rb><rt>アンカン</rt></ruby>　<ruby><rb>飯</rb><rt>カンネ</rt></ruby>　<ruby><rb>飯</rb><rt>アム</rt></ruby>　<ruby><rb>酢</rb><rt>セム</rt></ruby>
+                <lb/><ruby><rb>茶</rb><rt>チヤイ</rt></ruby>　<ruby><rb>湯</rb><rt>ヌリ</rt></ruby>　<ruby><rb>酒</rb><rt>リヨウ</rt></ruby>　<ruby><rb>飲</rb><rt>ヲム</rt></ruby>　<ruby><rb>飲</rb><rt>ヲム</rt></ruby>　<ruby><rb>茶</rb><rt>チヤイ</rt></ruby>　<ruby><rb>飲</rb><rt>ヲム</rt></ruby>　<ruby><rb>酒</rb><rt>レウ</rt></ruby>　<ruby><rb>米</rb><rt>カウ</rt></ruby>　<ruby><rb>粟</rb><rt>アウハ</rt></ruby>　<ruby><rb>火</rb><rt>ル</rt></ruby>　<ruby><rb>石</rb><rt>ラ</rt></ruby>
+                <lb/><ruby><rb>大</rb><rt>ト</rt></ruby>　<ruby><rb>豆</rb><rt>カン</rt></ruby>　<ruby><rb>蕃</rb><rt>ヲ</rt></ruby>　<ruby><rb>椒</rb><rt>ン</rt></ruby>　<ruby><rb>藤</rb><rt>タ</rt></ruby>　<ruby><rb>豆</rb><rt>ベン</rt></ruby>　<ruby><rb>味</rb><rt>ト</rt></ruby>　<ruby><rb>噌</rb><rt>ン</rt></ruby>　<ruby><rb>葱</rb><rt>ハン</rt></ruby>　<ruby><rb>生</rb><rt>ゴ</rt></ruby>　<ruby><rb>姜</rb><rt>ン</rt></ruby>　<ruby><rb>芋</rb><rt>モン</rt></ruby>
+                <lb/><ruby><rb>薩</rb><rt>コ</rt></ruby>　<ruby><rb>摩</rb><rt>ハイ</rt></ruby>　<ruby><rb>芋</rb><rt>モン</rt></ruby>　<ruby><rb>笋</rb><rt>シユン</rt></ruby>　<ruby><rb>韮</rb><rt>キウサイ</rt></ruby>　<ruby><rb>瓜</rb><rt>ナツウ</rt></ruby>　<ruby><rb>茄</rb><rt>コ</rt></ruby>　<ruby><rb>子</rb><rt>ヲ</rt></ruby>　<ruby><rb>王</rb><rt>バ</rt></ruby>　<ruby><rb>蜀</rb><rt>ツ</rt></ruby>　黍　<ruby><rb>柚</rb><rt>ニタ</rt></ruby>
+                <lb/><ruby><rb>橘</rb><rt>ホケ</rt></ruby>　<ruby><rb>豆</rb><rt>ト</rt></ruby>　<ruby><rb>腐</rb><rt>ホウ</rt></ruby>　<ruby><rb>餅</rb><rt>ハン</rt></ruby>　<ruby><rb>砂</rb><rt>ラ</rt></ruby>　<ruby><rb>糖</rb><rt>ン</rt></ruby>　<ruby><rb>麻</rb><rt>カイウ</rt></ruby>　<ruby><rb>西</rb><rt>シユ</rt></ruby>　<ruby><rb>瓜</rb><rt>タ</rt></ruby>　<ruby><rb>菊</rb><rt>ホ</rt></ruby>　<ruby><rb>花</rb><rt>アヽ</rt></ruby>　<ruby><rb>燈</rb><rt>メツ</rt></ruby>
+                <lb/><ruby><rb>瓜</rb><rt>サイ</rt></ruby>　<ruby><rb>竹</rb><rt>タイ</rt></ruby>　<ruby><rb>鶏</rb><rt>ハ</rt></ruby>　<ruby><rb>頭</rb><rt>ン</rt></ruby>　花　<ruby><rb>鬼</rb><rt>ホ</rt></ruby>　<ruby><rb>燈</rb><rt>ウ</rt></ruby>　<ruby><rb>薬</rb><rt>トヲ</rt></ruby>　<ruby><rb>砂</rb><rt>カツ</rt></ruby>　<ruby><rb>鶏</rb><rt>アハ</rt></ruby>　<ruby><rb>馬</rb><rt>マ</rt></ruby>
+                <lb/><ruby><rb>牛</rb><rt>ウカウ</rt></ruby>　<ruby><rb>魚</rb><rt>アヽ</rt></ruby>　<ruby><rb>猪</rb><rt>ハイ</rt></ruby>　<ruby><rb>猫</rb><rt>マイ</rt></ruby>　<ruby><rb>鼠</rb><rt>ネヲ</rt></ruby>　<ruby><rb>海</rb><rt>ト</rt></ruby>　<ruby><rb>木</rb><rt>マ</rt></ruby>　<ruby><rb>綿</rb><rt>イ</rt></ruby>　<ruby><rb>絹</rb><rt>マイ</rt></ruby>　<ruby><rb>手</rb><rt>ア</rt></ruby>　<ruby><rb>巾</rb><rt>ン</rt></ruby>
+                <lb/><ruby><rb>著</rb><rt>ア</rt></ruby>　<ruby><rb>物</rb><rt>ヲ</rt></ruby>　<ruby><rb>綿</rb><rt>ホン</rt></ruby>　<ruby><rb>股</rb><rt>ゴ</rt></ruby>　<ruby><rb>引</rb><rt>ン</rt></ruby>　<ruby><rb>扇</rb><rt>クハ</rt></ruby>　<ruby><rb>子</rb><rt>ツ</rt></ruby>　<ruby><rb>筆</rb><rt>ベウ</rt></ruby>　<ruby><rb>墨</rb><rt>モク</rt></ruby>　<ruby><rb>紙</rb><rt>セイ</rt></ruby>　<ruby><rb>尺</rb><rt>セイ</rt></ruby>　<ruby><rb>猿</rb><rt>トン</rt></ruby>
+                <lb/><pb n="20r" facs="#zone_0021b"/>
+                <lb/><ruby><rb>山</rb><rt>ト</rt></ruby>　<ruby><rb>刀</rb><rt>ウ</rt></ruby>　<ruby><rb>鐇</rb><rt>ホヲ</rt></ruby>　<ruby><rb>刺刀</rb><rt>チヤウ</rt></ruby>　<ruby><rb>桶</rb><rt>トンコ</rt></ruby>　<ruby><rb>柄</rb><rt>ヨヲ</rt></ruby>　<ruby><rb>拶</rb><rt>ヲ</rt></ruby>　<ruby><rb>箸</rb><rt>カ</rt></ruby>　<ruby><rb>蓙</rb><rt>セウ</rt></ruby>　<ruby><rb>笠</rb><rt>ノン</rt></ruby>　<ruby><rb>桃</rb><rt>タ</rt></ruby>
+                <lb/><ruby><rb>燈</rb><rt>ン</rt></ruby>　<ruby><rb>蝋</rb><rt>ラ</rt></ruby>　<ruby><rb>燭</rb><rt>ン</rt></ruby>　<ruby><rb>油</rb><rt>テヤウ</rt></ruby>　<ruby><rb>椀</rb><rt>ハツ</rt></ruby>　<ruby><rb>小</rb><rt>セ</rt></ruby>　<ruby><rb>椀</rb><rt>ン</rt></ruby>　<ruby><rb>薪</rb><rt>コイ</rt></ruby>　<ruby><rb>笛</rb><rt>ゴエン</rt></ruby>　<ruby><rb>柱</rb><rt>タラ</rt></ruby>　<ruby><rb>帆</rb><rt>ホウ</rt></ruby>　<ruby><rb>碇</rb><rt>ナイヲ</rt></ruby>
+                <lb/><ruby><rb>綱</rb><rt>ナイホ</rt></ruby>　<ruby><rb>伝</rb><rt>テ</rt></ruby>　<ruby><rb>馬</rb><rt>ン</rt></ruby>　船　<ruby><rb>糸取車</rb><rt>カウハ</rt></ruby>　<ruby><rb>米春</rb><rt>アウハ</rt></ruby>　<ruby><rb>旋</rb><rt>シヤ</rt></ruby>　<ruby><rb>磨</rb><rt>イン</rt></ruby>　<ruby><rb>売</rb><rt>マイ</rt></ruby>　
+                <lb/><ruby><rb>買</rb><rt>ノヽ</rt></ruby>　<ruby><rb>価</rb><rt>マ</rt></ruby>　<ruby><rb>如</rb><rt>イ</rt></ruby>　<ruby><rb>何</rb><rt>ラン</rt></ruby>　<ruby><rb>否</rb><rt>コン</rt></ruby>　<ruby><rb>諾</rb><rt>アヽ</rt></ruby>　<ruby><rb>有</rb><rt>コウ</rt></ruby>　<ruby><rb>無</rb><rt>コン</rt></ruby>　<ruby><rb>善</rb><rt>トツ</rt></ruby>　<ruby><rb>悪</rb><rt>シヤウ</rt></ruby>　<ruby><rb>勿戯</rb><rt>コイコハイナア</rt></ruby>
+                <lb/><ruby><rb>方</rb><rt>ホウ</rt></ruby>　<ruby><rb>来</rb><rt>ライ</rt></ruby>　<ruby><rb>集</rb><rt>ホンナア</rt></ruby>　<ruby><rb>食</rb><rt>アンテ</rt></ruby>　<ruby><rb>飽</rb><rt>ナアホン</rt></ruby>　<ruby><rb>労</rb><rt>クハラン</rt></ruby>　<ruby><rb>早</rb><rt>マヲ</rt></ruby>　<ruby><rb>寝</rb><rt>ゴヲ</rt></ruby>　<ruby><rb>痛</rb><rt>ヲチア</rt></ruby>　<ruby><rb>泣</rb><rt>アリ</rt></ruby>　<ruby><rb>笑</rb><rt>エム</rt></ruby>　<ruby><rb>休</rb><rt>コイ</rt></ruby>
+                <lb/><ruby><rb>行楽</rb><rt>イテヤウ</rt></ruby>　<ruby><rb>何</rb><rt>イ</rt></ruby>　<ruby><rb>処</rb><rt>モ</rt></ruby>　<ruby><rb>出</rb><rt>ヲ</rt></ruby>　<ruby><rb>行</rb><rt>レ</rt></ruby>　<ruby><rb>矣</rb><rt>イ</rt></ruby>　<ruby><rb>不</rb><rt>コカ</rt></ruby>　<ruby><rb>管</rb><rt>ロイ</rt></ruby>　之也
+                <lb/><anchor corresp="#k041"/>一南京船<placeName corresp="#長崎">長崎</placeName>へ着の時は海の口に暫く碇をおろし
+                <lb/>止り候番所ゟ見物船壱艘出候続で引船弐拾弐艘
+                <lb/>迎に出て湊へ引入申候事
+                <lb/> <pb n="20v" facs="#zone_0022a"/>
+                <lb/><anchor corresp="#k042"/>安南国漂流物語終</p></div>
+        </body>
+        <back>
+            <listPerson>
+                <person xml:id="左平太">
+                    <persName>左平太</persName>
+                </person>
+                <person xml:id="友七">
+                    <persName>友七</persName>
+                </person>
+                <person xml:id="庄兵衛">
+                    <persName>庄兵衛</persName>
+                </person>
+                <person xml:id="吉四郎">
+                    <persName>吉四郎</persName>
+                </person>
+                <person xml:id="善衛門">
+                    <persName>善衛門</persName>
+                </person>
+                <person xml:id="重三郎">
+                    <persName>重三郎</persName>
+                    <persName>十三郎</persName>
+                </person>
+                <person xml:id="徳川宗翰">
+                    <persName>水戸様</persName>
+                    <persName>徳川宗翰</persName>
+                </person>
+                <person xml:id="コククワンサン">
+                    <persName>コククワンサン</persName>
+                </person>
+                <person xml:id="トンタイクンシ">
+                    <persName>トンタイクンシ</persName>
+                </person>
+                <person xml:id="游撲">
+                    <persName>游撲</persName>
+                </person>
+                <person xml:id="王世吉">
+                    <persName>王世吉</persName>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="磯原村">
+                    <placeName>磯原村</placeName>
+                    <placeName>常州多賀郡磯原村</placeName>
+                    <location>
+                        <geo>36.807528471218106 140.68435725594983</geo>
+                    </location>
+                </place>
+                <place xml:id="ベトナム">
+                    <placeName>安南</placeName>
+                    <placeName>安南国</placeName>
+                    <location>
+                        <geo>14.517667779621492 108.22800707235724</geo>
+                    </location>
+                </place>
+                <place xml:id="南京">
+                    <placeName>南京</placeName>
+                    <location>
+                        <geo>32.05264036168876 118.81664368423425</geo>
+                    </location>
+                </place>
+                <place xml:id="長崎">
+                    <placeName>長崎</placeName>
+                    <location>
+                        <geo>32.75233304615307 129.87822557150275</geo>
+                    </location>
+                </place>
+                <place xml:id="小名浜">
+                    <placeName>小名浜</placeName>
+                    <placeName>奥州小名濱</placeName>
+                    <placeName>奥州小名の濱</placeName>
+                    <location>
+                        <geo>36.947451274629536 140.8830800689991</geo>
+                    </location>
+                </place>
+                <place xml:id="銚子">
+                    <placeName>銚子</placeName>
+                    <placeName>下総国銚子</placeName>
+                    <placeName>銚子浦</placeName>
+                    <location>
+                        <geo>35.74291984018599 140.7760130360991</geo>
+                    </location>
+                </place>
+                <place xml:id="相馬">
+                    <placeName>相馬</placeName>
+                    <placeName>奥州相馬沖</placeName>
+                    <location>
+                        <geo>37.80029251783839 140.92161223573476</geo>
+                    </location>
+                </place>
+                <place xml:id="水戸">
+                    <placeName>水戸</placeName>
+                    <placeName>水戸国</placeName>
+                    <location>
+                        <geo>36.3720059507545 140.47565959677138</geo>
+                    </location>
+                </place>    
+                <place xml:id="日本">
+                    <placeName>日本</placeName>
+                    <location>
+                        <geo>36.639803979824265 138.42910495637403</geo>
+                    </location>
+                </place>
+                <place xml:id="ホイアン">
+                    <placeName>会安</placeName>
+                    <location>
+                        <geo>15.87996549758 108.33709151298527</geo>
+                    </location>
+                </place>
+                <place xml:id="清">
+                    <placeName>清</placeName>
+                    <placeName>大清国</placeName>
+                    <location>
+                        <geo>41.80121301015677 123.43512475900465</geo>
+                    </location>
+                </place>
+            </listPlace>
+        </back>
+    </text>
+</TEI>
