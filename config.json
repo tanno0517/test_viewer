@@ -1,9 +1,5 @@
 {
     "url_main": "https://github.com/tanno0517/test_viewer/blob/main/annan_honkoku.xml",
     "url_sub": "https://github.com/tanno0517/test_viewer/blob/main/annan_gendai.xml",
-    "image_map": "https://github.com/tanno0517/test_viewer/blob/main/image_map.json",
-        "query_main": "line[*|id]",
-    "query_sub": "s[*|id]",
-    "direction": "vertical",
-    "layout": "1x1"
+    "direction": "vertical"
 }
