@@ -1,0 +1,8 @@
+{
+    "url_main": "https://github.com/tanno0517/test_viewer/blob/8b74b1c15d26e628cdeca7e0773eaa426594fb2c/annan_honkoku.xml",
+    "url_sub": "https://github.com/tanno0517/test_viewer/blob/8b74b1c15d26e628cdeca7e0773eaa426594fb2c/annan_gendai.xml",
+    "image_map": "https://github.com/tanno0517/test_viewer/blob/8b74b1c15d26e628cdeca7e0773eaa426594fb2c/image_map.json",
+    "label_main": "安南国漂流物語（翻刻）",
+    "label_sub": "安南国漂流物語（現代語訳）",
+    "direction": "vertical"
+}
